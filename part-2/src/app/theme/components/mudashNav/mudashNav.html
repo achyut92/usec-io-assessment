@@ -1,0 +1,31 @@
+<nav class="row">
+  <a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="./devices">Devices</a>
+  <a routerLinkActive="active" routerLink="./manage-certs">Manage Certificates</a>
+  <a routerLinkActive="active" routerLink="./blocked-devices">Blocked Devices</a>
+  <a routerLinkActive="active" routerLink="./settings">Settings</a>
+</nav>
+<div class="container">
+  <div class="row justify-content-between">
+    <div class="col-md-3">
+      <div class="dropdown">
+        <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          All Devices
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <button class="btn btn-secondary btn-sm">Button 1</button>
+      <button class="btn btn-secondary btn-sm">Button 2</button>
+      <button class="btn btn-secondary btn-sm">Button 3</button>
+      <button class="btn btn-secondary btn-sm">Button 4</button>
+      <button class="btn btn-secondary btn-sm">Button 5</button>
+      <button class="btn btn-secondary btn-sm">Button 6</button>
+    </div>
+  </div>
+</div>
